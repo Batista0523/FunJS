@@ -1,8 +1,3 @@
-/* In your breakout groups, work together to design the class structure for your assigned scenario, define properties and methods, and ensure that they make sense within the context of your room’s title.
-At least 4 properties (attributes) that are relevant to the class.
-Two methods (functions) that perform specific actions or calculations related to the class.
-One of the methods should interact with another instance of the class.
-Each breakout room has a specific scenario based on its title */
 
 
 

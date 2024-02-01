@@ -1,22 +1,22 @@
-// function fibanacciUpToLimit(limit) {
-//   let sequenceFib = [0, 1];
+function fibanacciUpToLimit(limit) {
+  let sequenceFib = [0, 1];
 
-//   while (
-//     sequenceFib[sequenceFib.length - 1] + sequenceFib[sequenceFib.length - 2] <=
-//     limit
-//   ) {
-//     sequenceFib.push(
+  while (
+    sequenceFib[sequenceFib.length - 1] + sequenceFib[sequenceFib.length - 2] <=
+    limit
+  ) {
+    sequenceFib.push(
 
-//       sequenceFib[sequenceFib.length - 1] + sequenceFib[sequenceFib.length - 2]
-//     );
-//   }
-//   return sequenceFib;
-// }
+      sequenceFib[sequenceFib.length - 1] + sequenceFib[sequenceFib.length - 2]
+    );
+  }
+  return sequenceFib;
+}
 
-// const limit = 300;
-// const result = fibanacciUpToLimit(limit);
+const limit = 300;
+const result = fibanacciUpToLimit(limit);
 
-// console.log(result);
+console.log(result);
 /*  This line is part of a while loop and contains a condition that determines whether the loop should continue executing. Let's break it down further:
 
 fibSequence is an array that presumably stores Fibonacci numbers.
@@ -27,16 +27,3 @@ fibSequence[fibSequence.length - 1] + fibSequence[fibSequence.length - 2] calcul
 Now, the condition:
 
 <= limit: This checks if the sum of the last two Fibonacci numbers is less than or equal to the specified limit.*/
-function fibanacciUpToLimit(limit) {
-  let fibseq = [0, 1];
-
-  while (fibseq[fibseq.length - 1] + fibseq[fibseq.length - 2] <= limit) {
-    fibseq.push(fibseq[fibseq.length - 1] + fibseq[fibseq.length - 2]);
-  }
-  return fibseq;
-}
-
-
-const limit = 1000
-const result = fibanacciUpToLimit(limit)
-console.log(result)
